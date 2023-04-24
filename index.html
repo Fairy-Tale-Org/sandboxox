@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic X and O Landing Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="symbol-container">
+      <div class="symbol x">X</div>
+      <div class="symbol o">O</div>
+    </div>
+    <div class="container">
+      <button id="popup-btn">Subscribe</button>
+      <p>Join our mailing list for updates</p>
+    </div>
+
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <h2>Subscribe</h2>
+              <button class="close">Close</button>
+        <form>
+          <div class="form-group">
+            <input type="email" id="email" name="email" required />
+            <button type="submit" id="submit-btn">Submit</button>
+
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
